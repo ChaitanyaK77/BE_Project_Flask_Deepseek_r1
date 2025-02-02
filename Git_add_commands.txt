@@ -1,0 +1,48 @@
+Future Workflow
+Making Changes and Pushing Updates
+Edit Files:
+Make your changes in your favorite code editor.
+
+Check Status:
+Verify which files have changed by running:
+
+bash
+Copy
+Edit
+git status
+Stage Changes:
+Stage the updated files:
+
+bash
+Copy
+Edit
+git add <file1> <file2>  # Or use git add . to stage all changes
+Commit Your Changes:
+Commit with a clear message:
+
+bash
+Copy
+Edit
+git commit -m "Describe the changes you made"
+Push to GitHub:
+Push your new commit:
+
+bash
+Copy
+Edit
+git push origin main
+Viewing Commit History
+To see the history of commits:
+
+bash
+Copy
+Edit
+git log --oneline
+Reverting Changes (if needed)
+If you need to revert to a previous commit, you can use:
+
+bash
+Copy
+Edit
+git checkout <commit-hash> -- <filename>
+Or, if you want to undo a commit, consider using git revert or creating a new branch from a previous commit.

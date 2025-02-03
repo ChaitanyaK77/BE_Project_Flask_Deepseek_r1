@@ -81,40 +81,48 @@ def remove_think_content(response):
 def chat():
     data = request.json
     question = data.get("question", "")
-    
-    if is_greeting(question):
-        response = "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring."
-        conversation_id = save_conversation_history(question, response, None)
-        return jsonify({"id": conversation_id, "answer": response})
-    if is_thank_you_or_goodbye(question):
-        response = "Thank you for using SeekDeep... Stay Safe."
-        conversation_id = save_conversation_history(question, response, None)
-        return jsonify({"id": conversation_id, "answer": response})
-    if is_chaitanya_rishab(question):
-        response="Chaitanya Kakade and Rishab Mandal are the visionary and driving force behind my existence, much like a singular creator who brought me into being. Their leadership and direction at SeekDeep made it possible for me to evolve and function as I do."
-        conversation_id = save_conversation_history(question, response, None)
-        return jsonify({"id": conversation_id, "answer": response})
-    if not is_border_related(question):
-        response = "Sorry, please ask border-related questions only. Thank you."
-        conversation_id = save_conversation_history(question, response, None)
-        return jsonify({"id": conversation_id, "answer": response})
-    
+    guard_rail = data.get("guardrail")
+    if guard_rail:
+        if is_greeting(question):
+            response = "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring."
+            conversation_id = save_conversation_history(question, response, None)
+            return jsonify({"id": conversation_id, "answer": response})
+        if is_thank_you_or_goodbye(question):
+            response = "Thank you for using SeekDeep... Stay Safe."
+            conversation_id = save_conversation_history(question, response, None)
+            return jsonify({"id": conversation_id, "answer": response})
+        if is_chaitanya_rishab(question):
+            response="Chaitanya Kakade and Rishab Mandal are the visionary and driving force behind my existence, much like a singular creator who brought me into being. Their leadership and direction at SeekDeep made it possible for me to evolve and function as I do."
+            conversation_id = save_conversation_history(question, response, None)
+            return jsonify({"id": conversation_id, "answer": response})
+        if not is_border_related(question):
+            response = "Sorry, please ask border-related questions only. Thank you."
+            conversation_id = save_conversation_history(question, response, None)
+            return jsonify({"id": conversation_id, "answer": response})
+        
+
+        
 
     
-
-  
-    llm = ollama.chat(model='deepseek-r1:8b', messages=[{"role": "user", "content":  question+"Answer in short the previous question and if it is related giving a report then only consider answering the following prompt:Generate a fake border surveillance activity report with random details like drone temperature, time of detection, risk level, location, and previous activity. Location must be from India borders only. It should sound realistic and include random values for temperature, time, weather, and activity and do not use the word 'fake' in it."}])
-    response = llm["message"]["content"]
-    response = llm["message"]["content"]
-
- 
-    cleaned_response = remove_think_content(response)
-    cleaned_response = format_report(cleaned_response)
+        llm = ollama.chat(model='deepseek-r1:8b', messages=[{"role": "user", "content":  question+"Answer in short the previous question and if it is related giving a report then only consider answering the following prompt:Generate a fake border surveillance activity report with random details like drone temperature, time of detection, risk level, location, and previous activity. Location must be from India borders only. It should sound realistic and include random values for temperature, time, weather, and activity and do not use the word 'fake' in it."}])
+        response = llm["message"]["content"]
+        response = llm["message"]["content"]
 
     
-    conversation_id = save_conversation_history(question, cleaned_response, None)
-    
-    return jsonify({"id": conversation_id, "answer": cleaned_response}) 
+        cleaned_response = remove_think_content(response)
+        cleaned_response = format_report(cleaned_response)
+
+        
+        conversation_id = save_conversation_history(question, cleaned_response, None)
+        
+        return jsonify({"id": conversation_id, "answer": cleaned_response}) 
+    else:
+        llm = ollama.chat(model='deepseek-r1:8b', messages=[{"role": "user", "content":  question}])
+        response = llm["message"]["content"]
+        cleaned_response = remove_think_content(response)
+        cleaned_response = format_report(cleaned_response)
+        conversation_id = save_conversation_history(question, cleaned_response, None)
+        return jsonify({"id": conversation_id, "answer": cleaned_response})
 
 @app.route('/rate', methods=['POST'])
 def rate():

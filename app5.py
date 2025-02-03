@@ -82,7 +82,6 @@ def chat():
     data = request.json
     question = data.get("question", "")
     
-    
     if is_greeting(question):
         response = "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring."
         conversation_id = save_conversation_history(question, response, None)

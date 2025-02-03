@@ -496,5 +496,23 @@
         "question": "Hi",
         "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
         "rating": null
+    },
+    {
+        "id": 84,
+        "question": "hello",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 85,
+        "question": "hello",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 86,
+        "question": "border report",
+        "response": "Border Surveillance Activity Report\n\n- \n\nLocation\n\n: Indo-Pakistan Border near Lahore\n- \n\nDate\n\n: October 5, 2023  \n- \n\nTime of Detection\n\n: 9:15 PM  \n- \n\nTemperature\n\n: 14\u00b0C (59\u00b0F)  \n- \n\nWeather Conditions\n\n: Overcast with light rain  \n- \n\nRisk Level\n\n: Medium (Level 2)  \n\nA surveillance drone detected potential suspicious activity along the Indo-Pakistan border near Lahore at 9:15 PM. The temperature at the time was 14\u00b0C, with overcast skies and light rain adding to the challenging conditions. The risk level was assessed as medium, indicating cautious monitoring without immediate alerts.\n\nThe detection involved advanced thermal imaging technology, which identified a thermal anomaly consistent with human movement in a restricted zone. This follows previous activity noted at 7:30 AM three days prior, where similar thermal signatures were observed but deemed non-hostile upon further investigation. Surveillance protocols remain heightened due to recurring anomalies in the area.",
+        "rating": null
     }
 ]

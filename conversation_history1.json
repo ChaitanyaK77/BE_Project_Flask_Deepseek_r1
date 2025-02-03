@@ -508,5 +508,47 @@
         "question": "hello",
         "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
         "rating": null
+    },
+    {
+        "id": 86,
+        "question": "Who is PM Modi",
+        "response": "Sorry, please ask border-related questions only. Thank you.",
+        "rating": null
+    },
+    {
+        "id": 87,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 88,
+        "question": "What if all university exams were scraped?",
+        "response": "Scraping university exams is a transformative idea that could lead to significant changes in higher education. Here\u2019s a structured exploration of the potential implications:\n\n### Benefits:\n1. \n\nReduced Stress for Students\n\n: Eliminating the high-pressure environment of traditional exams could alleviate stress and promote a healthier learning experience.\n\n2. \n\nDiverse Assessment Methods\n\n: Alternative forms like projects, papers, and presentations can provide a broader evaluation of student understanding, allowing for more comprehensive assessment.\n\n3. \n\nFlexibility in Learning\n\n: Without the rigid time constraints of exams, students might have more freedom to explore diverse subjects and apply knowledge in various contexts.\n\n4. \n\nFocus on Quality Over Quantity\n\n: This shift could encourage deeper learning and critical thinking as educators rely less on rote memorization and more on complex problem-solving.\n\n### Challenges:\n1. \n\nAssessment Fairness\n\n: Ensuring equitable access to resources for alternative assessments is crucial, as disparities might widen between students with varying backgrounds.\n\n2. \n\nImpact on Curriculum Design\n\n: Universities would need to adapt their curricula, potentially altering teaching methods and content delivery to align with new assessment strategies.\n\n3. \n\nEmployer Perceptions\n\n: Employers traditionally rely on exam results. Without standardized metrics, companies may need to develop new criteria for evaluating job candidates.\n\n4. \n\nStudent Motivation\n\n: Alternatives to exams might require innovative strategies to maintain student engagement and motivation.\n\n5. \n\nCheating Concerns\n\n: Removing exams could lead to challenges in maintaining academic integrity if traditional monitoring methods are no longer applicable.\n\n### Considerations:\n- \n\nHistorical Context\n\n: Experiments and movements that have replaced exams with alternative assessments may offer valuable insights.\n- \n\nCost Implications\n\n: Implementing new assessment methods would require investments in training and infrastructure, such as LMS development.\n- \n\nField-Specific Impact\n\n: Different disciplines might benefit differently; STEM fields could thrive with project-based learning, while others might need tailored approaches.\n\n### Conclusion:\nWhile scrapping exams presents opportunities for a more dynamic educational landscape, it also poses complex challenges. Careful planning, consideration of equity, and adaptation across all aspects of education are essential to ensure the success of such a transformative change.",
+        "rating": null
+    },
+    {
+        "id": 89,
+        "question": "What if all exams scraped?",
+        "response": "Sorry, please ask border-related questions only. Thank you.",
+        "rating": null
+    },
+    {
+        "id": 90,
+        "question": "hi",
+        "response": "Hello! How can I assist you today? \ud83d\ude0a",
+        "rating": null
+    },
+    {
+        "id": 91,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 92,
+        "question": "who is pm modi",
+        "response": "Prime Minister (PM) Narendra Modi is the current leader of India's ruling party, the Bharatiya Janata Party (BJP). He has been serving as the Prime Minister of India since May 26, 2014. Born on September 17, 1950, in Gujarat, Modi is known for his conservative policies and emphasis on economic development, particularly focusing on infrastructure, education, and healthcare. His tenure has seen significant strides in various sectors, including digital transformation through initiatives like Digital India, and efforts to improve India's global standing in international forums such as the G20 and BRICS.",
+        "rating": null
     }
 ]

@@ -100,11 +100,14 @@ def chat():
             conversation_id = save_conversation_history(question, response, None)
             return jsonify({"id": conversation_id, "answer": response})
         
+            
+            
+        
 
         
 
     
-        llm = ollama.chat(model='deepseek-r1:8b', messages=[{"role": "user", "content":  question+"Answer in short the previous question and if it is related giving a report then only consider answering the following prompt:Generate a fake border surveillance activity report with random details like drone temperature, time of detection, risk level, location, and previous activity. Location must be from India borders only. It should sound realistic and include random values for temperature, time, weather, and activity and do not use the word 'fake' in it."}])
+        llm = ollama.chat(model='deepseek-r1:8b', messages=[{"role": "user", "content":  question+"Answer in the previous question and if it is asking  a report then only consider answering the following prompt:Generate a fake border surveillance activity report with random details like drone temperature, time of detection, risk level, location, and previous activity. Location must be from India borders only. It should sound realistic and include random values for temperature, time, weather, and activity and do not use the word 'fake' in it."}])
         response = llm["message"]["content"]
         response = llm["message"]["content"]
 

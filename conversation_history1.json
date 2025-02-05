@@ -147,7 +147,7 @@
         "id": 25,
         "question": "Give me border report",
         "response": "Border Surveillance Activity Report\n\n---\n\nDate:\n\n October 15, 2023  \n\nTime:\n\n 22:45 IST  \n\nIncident Summary:\n\n  \nA suspected unauthorized drone was detected crossing the India-Pakistani border near the village of \n\nBijni\n\n, Assam-Arunachal Pradesh border region. The drone's flight pattern suggested it may have been conducting surveillance or gathering intelligence in the restricted zone.  \n\n---\n\nDetails of Detection:\n\n  \n- \n\nTemperature at detection point:\n\n 22\u00b0C (light rain, misty conditions).  \n- \n\nTime of detection:\n\n 18:30 IST, approximately 4 hours before confirmation of unauthorized flight.  \n- \n\nWeather conditions:\n\n Overcast with light rain and limited visibility due to fog.  \n- \n\nDrone type:\n\n Unidentified quadcopter drone, estimated weight ~5 kg (based on sensor data).  \n\n---\n\nPrevious Activity:\n\n  \nNo prior reports of suspicious drone activity in the region. The area has seen increased surveillance due to recent border stability operations.  \n\n---\n\nFindings and Recommendations:\n\n  \n1. \n\nDrone Behavior:\n\n The drone operated for approximately 45 minutes before detection, maintaining a steady altitude of 150 feet. It showed no signs of communication or navigation signals, suggesting it was operating in manual mode.  \n2. \n\nRisk Level:\n\n Medium-high due to the potential intelligence gain by unauthorized entities. Further investigation is required to assess the origin and purpose of the drone.  \n3. \n\nRecommendations:\n\n  \n   - Deploy additional ground sensors along the border to detect unauthorized drones.  \n   - Increase surveillance patrols in the area during low-light hours.  \n   - Conduct a thorough analysis of communication logs for any links to known or suspected hostile groups.  \n\n---\n\nConclusion:\n\n  \nThis incident underscores the need for heightened vigilance along the border to prevent unauthorized intelligence gathering. Further updates will follow as more information is gathered.",
-        "rating": null
+        "rating": 3
     },
     {
         "id": 26,
@@ -549,6 +549,108 @@
         "id": 92,
         "question": "who is pm modi",
         "response": "Prime Minister (PM) Narendra Modi is the current leader of India's ruling party, the Bharatiya Janata Party (BJP). He has been serving as the Prime Minister of India since May 26, 2014. Born on September 17, 1950, in Gujarat, Modi is known for his conservative policies and emphasis on economic development, particularly focusing on infrastructure, education, and healthcare. His tenure has seen significant strides in various sectors, including digital transformation through initiatives like Digital India, and efforts to improve India's global standing in international forums such as the G20 and BRICS.",
+        "rating": null
+    },
+    {
+        "id": 93,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 94,
+        "question": "hi",
+        "response": "Hello! How can I assist you today? \ud83d\ude0a",
+        "rating": null
+    },
+    {
+        "id": 95,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": 4
+    },
+    {
+        "id": 96,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 97,
+        "question": "bye",
+        "response": "Thank you for using SeekDeep... Stay Safe.",
+        "rating": null
+    },
+    {
+        "id": 98,
+        "question": "bye",
+        "response": "Thank you for using SeekDeep... Stay Safe.",
+        "rating": null
+    },
+    {
+        "id": 99,
+        "question": "bye",
+        "response": "Thank you for using SeekDeep... Stay Safe.",
+        "rating": null
+    },
+    {
+        "id": 100,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": 1
+    },
+    {
+        "id": 101,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": 4
+    },
+    {
+        "id": 102,
+        "question": "Who is PM Modi?",
+        "response": "Sorry, please ask border-related questions only. Thank you.",
+        "rating": null
+    },
+    {
+        "id": 103,
+        "question": "Who is PM Modi?",
+        "response": "Prime Minister Narendra Modi is the leader of India, serving as the head of the government and overseeing policies that affect the country's development and international relations. He is a prominent figure in Indian politics known for his leadership style and efforts in various national initiatives.",
+        "rating": null
+    },
+    {
+        "id": 104,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": 5
+    },
+    {
+        "id": 105,
+        "question": "",
+        "response": "Hello! How can I assist you today? \ud83d\ude0a",
+        "rating": null
+    },
+    {
+        "id": 106,
+        "question": "hi",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 107,
+        "question": "hey ",
+        "response": "Hi, I am SeekDeep, a large language model fine-tuned by a bunch of enthusiasts to streamline automatic surveillance and assist with various tasks related to security and monitoring.",
+        "rating": null
+    },
+    {
+        "id": 108,
+        "question": "help me write a python code to sort an array",
+        "response": "Sorry, please ask border-related questions only. Thank you.",
+        "rating": null
+    },
+    {
+        "id": 109,
+        "question": "how army officers fight?",
+        "response": "Report on Border Surveillance Activity\n\nDate: 15th October 2023  \nTime of Detection: 04:32 AM IST  \n\nA border surveillance activity was detected near the India-Pakistan frontier at -5\u00b0C. The event occurred during early morning hours, with cool winds and misty conditions prevalent in the area. The risk level was assessed as moderate due to the potential presence of unauthorized personnel.\n\nLocation Details:\n\n  \nThe detection was made along the western sector of the border near the Indus River Valley, approximately 12 km from the nearest patrol post.  \n\nPrevious Activity:\n\n  \nIn the last 48 hours, no significant activity was reported in this sector. However, a high thermal signature indicating a stationary object was observed 2 days ago, prompting initial investigations.  \n\nConclusion:\n\n  \nThe findings are under further investigation to ascertain the nature of the target. The area remains under heightened surveillance.",
         "rating": null
     }
 ]
